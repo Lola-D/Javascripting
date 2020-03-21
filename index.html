@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let question = prompt("Hey mon ami ! Tu aimes ça les patates ?")
+        if (question.includes("Oui") || question.includes("oui")) {
+            let potatoe = "#"
+            for (let i = 1; i <= 7; i++) {
+                console.log(potatoe.repeat(i))
+            }
+        } else if (question.includes("Non") || question.includes("non")) {
+            console.log(alert("Ah nan mais c'est trop bon les patates !!!"))
+        } else {
+            console.log(alert("Je vous sens comme tiraillé"))
+        }
+    </script>
+</body>
+
+</html>
